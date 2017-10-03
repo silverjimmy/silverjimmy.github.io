@@ -2,12 +2,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Home| Yummy Recipe</title>
-    <meta charset="UTF-8">
+<title></title>
+<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="/css/style.css" rel="stylesheet" >
+    <title>Recipes || Yummy Recipe</title>
+</head>
 <body>
 
 <div class="container">
@@ -33,19 +35,50 @@
 </div>
 
 
-<div class="container">
+
+
+ <div class="container">
     <div class="row">
         <div class="col-sm-4"></div>
         <div class="col-sm-4" id="main">
-            
-<h2 style="align-content: center;">Recipes</h2>
-<p>
-<a href="create_recipe.html"><button class="btn btn-success">Create recipe</button></a>
-<a href="recipes.html"><button class="btn btn-info">View recipes</button></a> </p>
-
+            <h1>Yummy Recipe</h1>
         </div>
         <div Class="col-sm-4"></div>
     </div>
-</div>
+    
+    <div class="jumbotron">
+        <h3>Yummy Recipe List</h3>
+        <table class="table-stripped table-hover">
+            <thead>
+                <tr>
+                    <th>Main Recipe:</th>
+                    <th>Procedure & ingredients:</th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                
+                <tr>
+                    <td class="col-md-2">fDA</td>
+                    <td class="col-md-8">DSafs</td>
+                    <td><a><button class="btn btn-success">Open</button></a></td>
+                    <td><a><button class="btn btn-info">Update</button></a></td>
+                  <!--   <td><a href=/recipes/1/delete><button class="btn btn-danger">Delete</button></a></td> -->
+                </tr>
+                
+                
+            </tbody>
+        </table>
+
+    </br>
+    </br>
+    </br>
+    </br>
+        <a href ="create_recipe.html"><button type='button' class="btn pull-right">New Recipe</button></a>
+    </div>
+
+       
 </body>
 </html>
